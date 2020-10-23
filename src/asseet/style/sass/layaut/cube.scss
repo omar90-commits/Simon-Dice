@@ -1,0 +1,31 @@
+@for $i from 1 through 4 {
+    $type-value: $i % 2;
+
+    @if $type-value == 1 {
+        .cubes__cube-#{$i} {
+            border-right: 5px solid black; 
+        }
+    }
+
+    @if ($i == 1 or $i == 2) {
+        .cubes__cube-#{$i} {
+            border-bottom: 5px solid black; 
+        }
+    }
+}
+
+@each $i in $colors {
+    .#{nth($i, 1)} {
+        background-color: #{nth($i, 2)};
+        width: 50%;
+        height: 50%;
+    }
+}
+
+.cubes__cube-center {
+    position: absolute;
+    transform: translate(50%, 50%);
+    border-radius: 50%;
+    border: 5px solid black;
+    box-shadow: 0 3px 0 black;  
+}

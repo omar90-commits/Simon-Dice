@@ -1,0 +1,28 @@
+.btn_start {
+    padding: 10px 40px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: OCR A Std, monospace;
+    background: transparent;
+    cursor: pointer;
+    border: 2px solid black;
+    border-bottom: 4px solid black;
+    color: black;
+    transition: background-color 1s ease-out;
+
+    &:active {
+    	margin-top: 15px;
+	}
+
+	&:hover {
+	    box-shadow: 0 0 100px white;
+	    border-color: white;
+	    color: white;
+	    border-bottom: 4px solid white;
+	    transition: all 0.3s ease-out;
+	}
+
+	&:focus {
+		outline: none;
+	}
+}

@@ -1,0 +1,15 @@
+.block-text {
+	border: 1px solid black;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	font-size: 1.05rem;
+	width: 40%;
+}
+
+@media (min-width: 768px) {
+	.block-text {
+		position: absolute;
+		top: 80px;
+		width: 25%;
+	}
+}

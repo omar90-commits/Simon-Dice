@@ -1,0 +1,11 @@
+@import './utilities/colors.scss';
+@import './components/blockText.scss';
+@import './components/cube.scss';
+@import './layaut/level.scss';
+@import './layaut/cube.scss';
+@import './layaut/button.scss';
+
+body {
+	min-height: 100vh;
+	background-color: #C8DCEA;
+}

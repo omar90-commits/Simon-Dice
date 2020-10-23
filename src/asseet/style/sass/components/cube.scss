@@ -1,0 +1,14 @@
+.cubes {
+    width: 320px;
+    height: 320px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+    border: 5px solid black;
+    box-shadow: 0 10px 0 black; 
+}
+
+.cubes__cube {
+    cursor: pointer;
+    transition: background .3s;
+}
